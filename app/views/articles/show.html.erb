@@ -1,0 +1,7 @@
+<h1>Article Show Page</h1>
+<%= link_to 'Back to Listing Page', articles_path %> | 
+<%= link_to 'Edit Article', edit_article_path(@article) %>
+<p><b>Title:</b><br>
+<%= @article.title %></p>
+<p><b>Description:</b><br>
+<%= @article.description %></p>
